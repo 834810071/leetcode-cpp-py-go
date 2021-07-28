@@ -1,3 +1,10 @@
+#include <iostream>
+#include <string>
+#include <vector>
+#include <unordered_set>
+
+using namespace std;
+
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
