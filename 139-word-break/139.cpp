@@ -26,3 +26,19 @@ public:
         return dp[len];
     }
 };
+
+int main(int argc, char** args) {
+    Solution sol = Solution();
+    string s1 = "leetcode";
+    vector<string> wordDict1 = {"leet", "code"};
+    cout << sol.wordBreak(s1, wordDict1) << endl;
+
+    string s2 = "applepenapple";
+    vector<string> wordDict2 = {"apple", "pen"};
+    cout << sol.wordBreak(s2, wordDict2) << endl;
+
+    string s3 = "catsandog";
+    vector<string> wordDict3 = {"cats", "dog", "sand", "and", "cat"};
+    cout << sol.wordBreak(s3, wordDict3) << endl;
+    return 0;
+}
