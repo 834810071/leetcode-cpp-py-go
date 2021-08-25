@@ -32,3 +32,5 @@
 [241. 为运算表达式设计优先级](https://leetcode-cn.com/problems/different-ways-to-add-parentheses/)
 
 [746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)
+
+[187. 重复的DNA序列](https://leetcode-cn.com/problems/repeated-dna-sequences/)
