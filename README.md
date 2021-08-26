@@ -34,3 +34,5 @@
 [746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)
 
 [187. 重复的DNA序列](https://leetcode-cn.com/problems/repeated-dna-sequences/)
+
+[面试题 01.06. 字符串压缩](https://leetcode-cn.com/problems/compress-string-lcci/)
