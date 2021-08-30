@@ -36,3 +36,5 @@
 [187. 重复的DNA序列](https://leetcode-cn.com/problems/repeated-dna-sequences/)
 
 [面试题 01.06. 字符串压缩](https://leetcode-cn.com/problems/compress-string-lcci/)
+
+[958. 二叉树的完全性检验](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/)
