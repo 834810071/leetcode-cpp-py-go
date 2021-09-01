@@ -38,3 +38,5 @@
 [面试题 01.06. 字符串压缩](https://leetcode-cn.com/problems/compress-string-lcci/)
 
 [958. 二叉树的完全性检验](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/)
+
+[剑指 Offer 33. 二叉搜索树的后序遍历序列](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)
