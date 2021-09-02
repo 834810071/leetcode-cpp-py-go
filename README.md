@@ -3,6 +3,8 @@
 * python 3.6.8
 * c++11
 
+**计数：20道**
+
 [139. 单词拆分](https://leetcode-cn.com/problems/word-break/)
 
 [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/)
@@ -40,3 +42,5 @@
 [958. 二叉树的完全性检验](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/)
 
 [剑指 Offer 33. 二叉搜索树的后序遍历序列](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)
+
+[118. 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)
