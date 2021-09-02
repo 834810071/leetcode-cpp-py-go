@@ -3,6 +3,7 @@
 
 from typing import List
 
+
 class Solution:
     def diffWaysToCompute(self, expression: str) -> List[int]:
         if expression.isdigit():
@@ -11,16 +12,17 @@ class Solution:
         for i, val in enumerate(expression):
             if val in ['+', '-', '*']:
                 left = self.diffWaysToCompute(expression[:i])
-                right = self.diffWaysToCompute(expression[i+1:])
+                right = self.diffWaysToCompute(expression[i + 1:])
                 for l in left:
                     for r in right:
                         if val == '+':
-                            res.append(l+r) 
+                            res.append(l + r)
                         if val == '-':
-                            res.append(l-r) 
+                            res.append(l - r)
                         if val == '*':
-                            res.append(l*r) 
+                            res.append(l * r)
         return res
+
 
 if __name__ == '__main__':
     sol = Solution()

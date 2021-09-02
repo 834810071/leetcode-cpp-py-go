@@ -3,6 +3,7 @@
 
 from typing import List
 
+
 class Solution:
     def compressString(self, S: str) -> str:
         if len(S) == 0:
@@ -15,7 +16,7 @@ class Solution:
             else:
                 res += (pre + str(count))
                 pre, count = S[i], 1
-        
+
         res += (pre + str(count))
 
         return S if len(res) >= len(S) else res

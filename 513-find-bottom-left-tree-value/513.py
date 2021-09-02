@@ -2,6 +2,8 @@
 # -*- coding:utf-8 -*-
 
 from collections import deque
+from typing import Optional
+
 
 # Definition for a binary tree node.
 class TreeNode:
@@ -10,8 +12,9 @@ class TreeNode:
         self.left = left
         self.right = right
 
+
 class Solution:
-    def findBottomLeftValue(self, root: TreeNode) -> int:
+    def findBottomLeftValue(self, root: TreeNode) -> Optional[int]:
         dq: deque = deque([root])
         while dq:
             tmp = dq[0].val
@@ -23,6 +26,7 @@ class Solution:
                     dq.append(cur.right)
             if not dq:
                 return tmp
+
 
 if __name__ == '__main__':
     sol = Solution()

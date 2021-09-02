@@ -3,6 +3,7 @@
 
 from typing import List
 
+
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         if not word:
@@ -14,15 +15,18 @@ class Solution:
         for i in range(rows):
             for j in range(cols):
                 if board[i][j] == word[0]:
-                    visied = [[False for x in range(cols)] for y in range(rows)]
-                    res = Solution.found(board, i, j, visied, word, 0, rows, cols)
+                    visied = [[False for x in range(cols)]
+                              for y in range(rows)]
+                    res = Solution.found(board, i, j, visied, word, 0, rows,
+                                         cols)
                     if res:
                         return True
-        
+
         return False
-    
+
     @staticmethod
-    def found(board: List[List[str]], x: int, y: int, visied: [[]], word: str, index: int, rows: int, cols: int):
+    def found(board: List[List[str]], x: int, y: int, visied: List[List[bool]],
+              word: str, index: int, rows: int, cols: int):
         if index == len(word):
             return True
         if x < 0 or y < 0 or x >= rows or y >= cols:
@@ -37,16 +41,17 @@ class Solution:
         visied[x][y] = False
         return res
 
+
 if __name__ == '__main__':
     sol = Solution()
-    board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]]
+    board = [["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]]
     word = "ABCCED"
     print(sol.exist(board, word))
 
-    board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]]
+    board = [["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]]
     word = "SEE"
     print(sol.exist(board, word))
 
-    board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]]
+    board = [["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]]
     word = "ABCB"
     print(sol.exist(board, word))

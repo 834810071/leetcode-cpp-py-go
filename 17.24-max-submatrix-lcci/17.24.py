@@ -4,6 +4,7 @@
 import sys
 from typing import List
 
+
 class Solution:
     def getMaxMatrix(self, matrix: List[List[int]]) -> List[int]:
         ans = [0] * 4
@@ -32,10 +33,11 @@ class Solution:
                         ans[3] = n
         return ans
 
+
 if __name__ == '__main__':
     sol = Solution()
     matrix = [[-1, -2, -9, 6], [8, -9, -3, -6], [2, 9, -7, -6]]
     print(sol.getMaxMatrix(matrix))
 
-    matrix = [[9,-8,1,3,-2],[-3,7,6,-2,4],[6,-4,-4,8,-7]]
+    matrix = [[9, -8, 1, 3, -2], [-3, 7, 6, -2, 4], [6, -4, -4, 8, -7]]
     print(sol.getMaxMatrix(matrix))

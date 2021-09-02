@@ -4,6 +4,7 @@
 from typing import List
 from collections import deque
 
+
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
         size = len(isConnected)
@@ -23,9 +24,10 @@ class Solution:
                 res += 1
         return res
 
+
 if __name__ == '__main__':
     sol = Solution()
-    isConnected = [[1,1,0],[1,1,0],[0,0,1]]
+    isConnected = [[1, 1, 0], [1, 1, 0], [0, 0, 1]]
     print(sol.findCircleNum(isConnected))
-    isConnected = [[1,0,0],[0,1,0],[0,0,1]]
+    isConnected = [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
     print(sol.findCircleNum(isConnected))

@@ -1,16 +1,19 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 from collections import deque
+from typing import Optional
+
 
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
         self.val = x
-        self.left = None
-        self.right = None
+        self.left: Optional[TreeNode] = None
+        self.right: Optional[TreeNode] = None
+
 
 class Solution:
-    def mirrorTree(self, root: TreeNode) -> TreeNode:
+    def mirrorTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         if not root:
             return None
         root.left, root.right = root.right, root.left
@@ -18,10 +21,11 @@ class Solution:
         self.mirrorTree(root.right)
         return root
 
+
 def myprint(t: TreeNode) -> None:
     if not t:
         return None
-    q:deque = deque()
+    q: deque = deque()
     q.append(t)
     print('[', end='')
     while q:
@@ -34,6 +38,8 @@ def myprint(t: TreeNode) -> None:
             if tmp.right:
                 q.append(tmp.right)
     print(']')
+
+
 if __name__ == '__main__':
     sol = Solution()
     t1 = TreeNode(4)
