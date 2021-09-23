@@ -3,7 +3,7 @@
 * python 3.6.8
 * c++11
 
-**计数：20道**
+**计数：21道**
 
 [139. 单词拆分](https://leetcode-cn.com/problems/word-break/)
 
@@ -44,3 +44,5 @@
 [剑指 Offer 33. 二叉搜索树的后序遍历序列](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)
 
 [118. 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)
+
+[392. 判断子序列](https://leetcode-cn.com/problems/is-subsequence/)
