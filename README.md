@@ -3,7 +3,7 @@
 * python 3.6.8
 * c++11
 
-**计数：22道**
+**计数：23道**
 
 [139. 单词拆分](https://leetcode-cn.com/problems/word-break/)
 
@@ -48,3 +48,5 @@
 [392. 判断子序列](https://leetcode-cn.com/problems/is-subsequence/)
 
 [73. 矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/)
+
+[47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii/)
