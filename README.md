@@ -3,7 +3,7 @@
 * python 3.6.8
 * c++11
 
-**计数：23道**
+**计数：25道**
 
 [139. 单词拆分](https://leetcode-cn.com/problems/word-break/)
 
@@ -50,3 +50,7 @@
 [73. 矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/)
 
 [47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii/)
+
+[31. 下一个排列](https://leetcode-cn.com/problems/next-permutation/)
+
+[151. 翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
