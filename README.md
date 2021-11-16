@@ -3,7 +3,7 @@
 * python 3.6.8
 * c++11
 
-**计数：26道**
+**计数：28道**
 
 [139. 单词拆分](https://leetcode-cn.com/problems/word-break/)
 
@@ -56,3 +56,7 @@
 [151. 翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
 
 [200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
+
+[剑指 Offer 48. 最长不含重复字符的子字符串]([ https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof))
+
+[538. 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/)
