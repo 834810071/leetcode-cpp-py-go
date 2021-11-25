@@ -3,7 +3,7 @@
 * python 3.6.8
 * c++11
 
-**计数：28道**
+**计数：30道**
 
 [139. 单词拆分](https://leetcode-cn.com/problems/word-break/)
 
@@ -60,3 +60,7 @@
 [剑指 Offer 48. 最长不含重复字符的子字符串]([ https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof))
 
 [538. 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/)
+
+[123. 买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)
+
+[257. 二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/)
