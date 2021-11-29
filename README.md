@@ -3,7 +3,7 @@
 * python 3.6.8
 * c++11
 
-**计数：30道**
+**计数：31道**
 
 [139. 单词拆分](https://leetcode-cn.com/problems/word-break/)
 
@@ -64,3 +64,5 @@
 [123. 买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)
 
 [257. 二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/)
+
+[75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/)
