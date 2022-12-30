@@ -4,4 +4,7 @@
 - go
 - c++11
 
+[汇总各大互联网公司容易考察的高频leetcode题](https://github.com/afatcoder/LeetcodeTop)
+
 shoope done
+bytedance doing
