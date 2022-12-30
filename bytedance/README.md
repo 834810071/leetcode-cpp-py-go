@@ -7,3 +7,7 @@
 
 [25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
 
+[146. LRU 缓存](https://leetcode.cn/problems/lru-cache/)
+
+[3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
+
