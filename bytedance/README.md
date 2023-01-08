@@ -2,6 +2,7 @@
 
 * python 3.6.8
 * go
+* c++11
 
 **计数：1道**
 
@@ -15,3 +16,6 @@
 
 [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/)
 
+[103. 二叉树的锯齿形层序遍历](https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/)
+
+[15. 三数之和](https://leetcode.cn/problems/3sum/)

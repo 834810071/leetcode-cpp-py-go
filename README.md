@@ -4,6 +4,10 @@
 - go
 - c++11
 
+```shell
+clang++ -std=c++11 -o main
+```
+
 [汇总各大互联网公司容易考察的高频leetcode题](https://github.com/afatcoder/LeetcodeTop)
 
 shoope done
